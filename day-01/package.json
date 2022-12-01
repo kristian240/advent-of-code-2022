@@ -5,12 +5,9 @@
   "main": "index.ts",
   "type": "module",
   "scripts": {
-    "build:one": "tsup part-one.ts",
-    "build:watch:one": "npm run build:one -- --watch",
-    "dev:one": "npm run build:watch:one -- --onSuccess \"node dist/part-one.cjs\"",
-    "build:two": "tsup part-two.ts",
-    "build:watch:two": "npm run build:two -- --watch",
-    "dev:two": "npm run build:watch:two -- --onSuccess \"node dist/part-two.cjs\""
+    "build": "tsup index.ts",
+    "build:watch": "npm run build -- --watch",
+    "dev": "npm run build:watch -- --onSuccess \"node dist/index.cjs\""
   },
   "keywords": [],
   "author": "",

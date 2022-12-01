@@ -1,0 +1,28 @@
+{
+  "name": "day-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build:one": "tsup part-one.ts",
+    "build:watch:one": "npm run build:one -- --watch",
+    "dev:one": "npm run build:watch:one -- --onSuccess \"node dist/part-one.cjs\"",
+    "build:two": "tsup part-two.ts",
+    "build:watch:two": "npm run build:two -- --watch",
+    "dev:two": "npm run build:watch:two -- --onSuccess \"node dist/part-two.cjs\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node-lts": "~18.12.1",
+    "@types/node": "~18.11.10",
+    "prettier": "~2.8.0",
+    "tsup": "~6.5.0",
+    "typescript": "~4.9.3"
+  },
+  "dependencies": {
+    "readline": "~1.3.0"
+  }
+}

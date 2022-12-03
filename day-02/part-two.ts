@@ -36,7 +36,7 @@ const meShapes = (elfShape: Shape) => ({
   Z: looseMap[elfShape],
 });
 
-export async function main() {
+export function main() {
   const games = data.split("\n");
 
   const totalScore = games.reduce((total, game) => {

@@ -30,7 +30,7 @@ const meShapes = {
   Z: Shape.Scissors,
 };
 
-export async function main() {
+export function main() {
   const games = data.split("\n");
 
   const totalScore = games.reduce((total, game) => {

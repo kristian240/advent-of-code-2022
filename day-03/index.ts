@@ -78,8 +78,8 @@ export async function main() {
     .reduce((a, b) => a + b, 0);
 
   console.log("Results:");
-  console.log("  Sum of priorities:", score1, "(first part)");
-  console.log("  Sum of priorities:", score2, "(second part)");
+  console.log("  1st part:", score1);
+  console.log("  2nd part:", score2);
 }
 
 main();

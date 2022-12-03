@@ -4,7 +4,8 @@ export async function main() {
   // task goes here
 
   console.log("Results:");
-  console.log("  Print your result here");
+  console.log("  1st part:");
+  console.log("  2nd part:");
 }
 
 main();

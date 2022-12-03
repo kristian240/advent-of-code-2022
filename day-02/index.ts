@@ -6,8 +6,8 @@ export async function main() {
   const partTwoResult = partTwoMain();
 
   console.log("Results:");
-  console.log("  Total score:", partOneResult, "(part-one)");
-  console.log("  Total score:", partTwoResult, "(part-two)");
+  console.log("  1st part:", partOneResult);
+  console.log("  2nd part:", partTwoResult);
 }
 
 main();

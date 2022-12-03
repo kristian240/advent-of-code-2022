@@ -19,14 +19,8 @@ export async function main() {
   elfTotals.sort((a, b) => b - a);
 
   console.log("Results:");
-  console.log("  1st:", elfTotals[0], "(part-one answer)");
-  console.log("  2nd:", elfTotals[1]);
-  console.log("  3rd:", elfTotals[2]);
-  console.log(
-    "  Sum:",
-    elfTotals[0] + elfTotals[1] + elfTotals[2],
-    "(part-two-answer)"
-  );
+  console.log("  1st part:", elfTotals[0]);
+  console.log("  2nd part:", elfTotals[0] + elfTotals[1] + elfTotals[2]);
 }
 
 main();

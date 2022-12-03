@@ -1,0 +1,25 @@
+{
+  "name": "day-01",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsup index.ts",
+    "build:watch": "npm run build -- --watch",
+    "dev": "npm run build:watch -- --onSuccess \"node dist/index.cjs\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@tsconfig/node-lts": "~18.12.1",
+    "@types/node": "~18.11.10",
+    "prettier": "~2.8.0",
+    "tsup": "~6.5.0",
+    "typescript": "~4.9.3"
+  },
+  "dependencies": {
+    "readline": "~1.3.0"
+  }
+}
